@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 26-Fev-2023 às 19:23
+-- Tempo de geração: 22-Fev-2023 às 23:51
 -- Versão do servidor: 10.4.24-MariaDB
 -- versão do PHP: 8.1.6
 
@@ -73,7 +73,7 @@ CREATE TABLE `estudante_has_temas` (
 INSERT INTO `estudante_has_temas` (`Estudante_idUsuario`, `temas_idTema`, `limite`, `estado_vinculo`) VALUES
 (12, 44, 0, 1),
 (30, 48, 0, 1),
-(58, 46, 0, 1);
+(58, 42, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -190,10 +190,10 @@ CREATE TABLE `tabela_usuarios` (
 --
 
 INSERT INTO `tabela_usuarios` (`idUsuario`, `senha`, `dataCadastro`, `nome`, `Celular`, `email`, `idNivelAcesso`, `BI`, `imagem`) VALUES
-(1, '81dc9bdb52d04dc20036dbd8313ed055', '2022-12-10', 'Alicia Molonende', 934195263, 'aliciamolonende@gmail.com', 1, '', 'cópia de o ideal (6).png'),
+(1, '81dc9bdb52d04dc20036dbd8313ed055', '2022-12-10', 'Alicia Molonende', 934195263, 'aliciamolonende@gmail.com', 1, '', 'captura de ecrã_20221228_220803.png'),
 (2, 'ade45dba47b99904b7f0459dcbacc0b1', '2022-12-10', 'Mario de Molonende', 934195286, 'mariodemolonende@gmail.com', 2, '', ''),
 (9, '81dc9bdb52d04dc20036dbd8313ed055', '2022-12-13', 'Delfina Silva', 923556787, 'delfinasilva@gmail.com', 4, '', ''),
-(10, '81dc9bdb52d04dc20036dbd8313ed055', '2022-12-14', 'Márcia de Molonende', 923456789, 'marciamolonende@gmail.com', 3, '', 'r.png'),
+(10, '81dc9bdb52d04dc20036dbd8313ed055', '2022-12-14', 'Márcia de Molonende', 923456789, 'marciamolonende@gmail.com', 3, '', 'beneficios-sistema-gestao-integrada-1.png'),
 (12, '579646aad11fae4dd295812fb4526245', '2022-12-14', 'Adriano Molonende', 932466794, 'adrianomolonende@gmail.com', 4, '', ''),
 (15, '81dc9bdb52d04dc20036dbd8313ed055', '2022-12-18', 'Mario Afonso', 934195263, 'marioafonso@gmail.com', 2, '12345678901234', 'user (1).png'),
 (30, '0f7e44a922df352c05c5f73cb40ba115', '2022-12-21', 'José Francisco', 943567354, 'josefrancisco@gmail.com', 4, '', ''),
